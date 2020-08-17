@@ -1,4 +1,4 @@
-URxvt.font: xft:monospace:size=17
+URxvt.font: xft:monospace:size=15
 URxvt.scrollBar: false
 ! special
 *.foreground:   #9ea7a6
@@ -38,6 +38,6 @@ URxvt.scrollBar: false
 *.color15:      #b5d8f6
 
 URxvt.perl-lib: /home/neo/.config/urxvt/
-URxvt.perl-ext-common: keyboard-select, resize-font
+URxvt.perl-ext-common: keyboard-select
 URxvt.keysym.M-Escape: perl:keyboard-select:activate
 URxvt.keyboard-select.clipboard: true

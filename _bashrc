@@ -1,4 +1,4 @@
-# ~/.bashrc: executed by bash(1) for non-login shells.
+# ~/.BASHrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
@@ -118,6 +118,9 @@ if ! shopt -oq posix; then
 fi
 VISUAL=vim; export VISUAL EDITOR=vim; export EDITOR
 for (( i=1; i<=$LINES; i++ )); do echo; done; clear
-cat /home/neo/.config/shrey
-export PATH=./:/home/neo/progs/:$PATH
-export LD_LIBRARY_PATH="/lib:/usr/lib:/usr/local/lib"
+#lolcat /home/neo/.config/shrey
+#figlet -f slant Shrey | lolcat
+toilet --gay Shrey
+export PATH=./:/home/neo/progs/:/home/neo/Documents/books/:$PATH
+#export LD_LIBRARY_PATH="/lib:/usr/lib:/usr/local/lib"
+esc
